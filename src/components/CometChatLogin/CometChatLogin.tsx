@@ -133,13 +133,13 @@ const CometChatLogin = () => {
       className="cometchat-login__container"
     >
       <div className="cometchat-login__logo">
-        {isDarkMode ? <img src={cometChatLogoDark} alt='' /> : <img src={cometChatLogo} alt='' />}
+        {isDarkMode ? <img src={"logo.png"} alt='' /> : <img src={"logo.png"} alt='' />}
       </div>
       <div className='cometchat-login__content'>
 
         <div className='cometchat-login__header'>
 
-          <div className='cometchat-login__title'>Sign in to cometchat</div>
+          <div className='cometchat-login__title'>Sign In</div>
           {/* <div className='cometchat-login__sample-users'>
             <div className='cometchat-login__sample-users-title'>
               Using our sample users

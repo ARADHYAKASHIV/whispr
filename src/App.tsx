@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Login from "./components/CometChatLogin/CometChatLogin";
 import { AppContextProvider } from "./context/AppContext";
 import { Navigate, Route, Routes } from "react-router-dom";
-import Credentials from "./components/CometChatLogin/CometChatAppCredentials";
+// import Credentials from "./components/CometChatLogin/CometChatAppCredentials";
 import { CometChatHome } from "./components/CometChatHome/CometChatHome";
 
 interface IAppProps {
@@ -21,7 +21,7 @@ function App(props: IAppProps) {
             <Route path='/' element={<Navigate to='/home' replace />} />
             <Route path='login' element={<Login />} />
             <Route path='home' element={<CometChatHome theme={props.theme} />} />
-            <Route path='credentials' element={<Credentials />} />
+            {/* <Route path='credentials' element={<Credentials />} /> */}
           </Routes>
       </AppContextProvider>
     );
