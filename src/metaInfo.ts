@@ -1,5 +1,5 @@
 export const metaInfo = {
-  name: "sample-app",
+  name: "Whispr",
   version: "6.0.0",
   type: "sample",
   platform: "React",
