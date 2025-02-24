@@ -115,4 +115,4 @@ Here are some screenshots of the Whispr application:
 ## Contact
 
 
-For any questions or feedback, please reach out to us at support@whispr.com. We are here to help! You can also follow us on [Twitter](https://twitter.com/whispr) for updates.
+For any questions or feedback, please reach out to us. We are here to help! You can also follow us on [Mail](mailto:kashiv.aradhya@gmail.com) for updates.
