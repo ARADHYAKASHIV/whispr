@@ -108,7 +108,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Here are some screenshots of the Whispr application:
 
 ![Main Interface](public/images/logo.png)
-![Logo](public/images/logo.svg)
+<!-- ![Logo](public/images/logo.svg) -->
 ![Login Page](public/images/image.png)
 ![Home Page](public/images/img.png)
 
