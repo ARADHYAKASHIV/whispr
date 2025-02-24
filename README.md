@@ -1,52 +1,118 @@
-<p align="center">
-  <img alt="CometChat" src="https://assets.cometchat.io/website/images/logos/banner.png">
-</p>
+# Whispr
 
-# React Sample App by CometChat
+Whispr is a cutting-edge communication platform designed to facilitate seamless and secure messaging for individuals and teams. It offers a wide range of features to enhance your communication experience, making it the ideal choice for both personal and professional use.
 
-This is a reference application showcasing the integration of [CometChat's React UI Kit](https://www.cometchat.com/docs/ui-kit/react/v6/overview) within a React framework. It provides developers with examples of implementing real-time messaging and voice and video calling features in their own React-based applications.
+## Table of Contents
 
-<div style="display: flex; align-items: center; justify-content: center">
-   <img src="../screenshots/sample_app_overview.png" />
-</div>
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Prerequisites
+## Introduction
 
-- Ensure that you have Node.js and npm installed:
+Whispr aims to provide a secure and user-friendly messaging experience. With a focus on privacy and ease of use, Whispr is perfect for teams looking to collaborate effectively or individuals wanting to stay connected with friends and family.
 
-  ```sh
-    npm install npm@latest -g
-  ```
+## Features
 
-- Sign up for a [CometChat](https://app.cometchat.com/) account to get your app credentials: _`App ID`_, _`Region`_, and _`Auth Key`_
+- **End-to-End Encryption**: Ensures that all messages are secure and private, protecting your data from unauthorized access.
+- **Cross-Platform**: Available on Windows, macOS, Linux, iOS, and Android, allowing you to stay connected across all your devices.
+- **Group Chats**: Create and manage group conversations with ease, making it simple to collaborate with multiple people.
+- **File Sharing**: Share documents, images, and other files securely, ensuring that your shared content remains private.
+- **Voice and Video Calls**: High-quality voice and video calls with low latency, providing a smooth communication experience.
+- **Custom Notifications**: Tailor notifications to your preferences, so you never miss an important message.
 
 ## Installation
 
-1. Clone the repository:
-   ```sh
-     git clone https://github.com/cometchat/cometchat-uikit-react.git
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js**: Version 14 or higher.
+- **npm**: Version 6 or higher.
+
+### Steps
+
+Follow these steps to install and run Whispr:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/whispr.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd whispr
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+   If you encounter issues during installation, ensure that your Node.js and npm versions are up to date.
+4. **Start the application**:
+   ```bash
+   npm start
    ```
 
-2. Checkout v6 branch:
-   ```sh
-     git checkout v6
-   ```
+## Usage
 
-3. Navigate to the cloned directory:
-   ```sh
-     cd cometchat-uikit-react/sample-app
-   ```
-4. Install dependencies:
-   ```sh
-     npm install
-   ```
-5. `[Optional]` Enter your CometChat _`App ID`_, _`Region`_, and _`Auth Key`_ in the [sample-app/src/AppConstants.ts](https://github.com/cometchat/cometchat-sample-app-react/blob/v6/sample-app/src/AppConstants.ts) file:https://github.com/cometchat/cometchat-uikit-react/blob/2dba5e2e781db6d2f20c59803ff7f8cef4e7c187/sample-app/src/AppConstants.ts#L1-L5
+Once the application is running, you can create an account or log in with your existing credentials. The intuitive interface allows you to:
 
-6. Run the project locally to see all CometChat features in action:
-   ```
-     npm start
-   ```
+- **Send Messages**: Start messaging your contacts instantly.
+- **Create Groups**: Set up group chats for team collaboration.
+- **Make Calls**: Initiate voice and video calls with ease.
+- **Share Files**: Upload and share files securely.
 
-## Help and Support
+### Example Usage
 
-For issues running the project or integrating with our UI Kits, consult our [documentation](https://www.cometchat.com/docs/ui-kit/react/v6/integration) or create a [support ticket](https://help.cometchat.com/hc/en-us) or seek real-time support via the [CometChat Dashboard](http://app.cometchat.com/).
+- To send a message, simply type in the message box and hit enter.
+- To create a group, navigate to the groups section and follow the prompts.
+
+## Contributing
+
+We welcome contributions from the community. To contribute, follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Make your changes**.
+4. **Commit your changes**:
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+5. **Push to the branch**:
+   ```bash
+   git push origin feature-branch
+   ```
+6. **Open a pull request**.
+
+### Coding Standards
+
+Please adhere to the following coding standards when contributing:
+- Follow the project's coding style.
+- Write clear and concise commit messages.
+- Ensure that your code is well-documented.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Screenshots
+
+Here are some screenshots of the Whispr application:
+
+![Main Interface](public/images/logo.png)
+![Logo](public/images/logo.svg)
+![Login Page](public/images/image.png)
+![Home Page](public/images/img.png)
+
+## Contact
+
+
+For any questions or feedback, please reach out to us at support@whispr.com. We are here to help! You can also follow us on [Twitter](https://twitter.com/whispr) for updates.
