@@ -34,3 +34,7 @@ pnpm-debug.log*
 
 # Exclude all ._ files
 ._*
+
+# GSD planning directory
+.planning/
+GEMINI.md
