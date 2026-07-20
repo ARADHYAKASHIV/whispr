@@ -42,7 +42,7 @@ Follow these steps to install and run Whispr:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/whispr.git
+   git clone https://github.com/aradhyakashiv/whispr.git
    ```
 2. **Navigate to the project directory**:
    ```bash
